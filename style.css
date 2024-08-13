@@ -1,0 +1,426 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+body{
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+#one{
+    background-image: url("./Assets/Netflix_background.jpg");
+    height: 700px;
+    background-size: cover;
+}
+div{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 700px;
+    box-shadow: 0px 45px 150px black inset;
+    /* box-shadow: 0px 45px 250px black ; */
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+}
+#translate{
+    color: white;
+    font-size: 12px;
+    position: relative;
+    left: 70px;
+    top: 1.5px;
+}
+#signin{
+    background-color: #e50914;
+    color: white;
+    border: 2px solid #e50914;
+    height: 32px;
+    width: 76px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 650;
+}
+#signin:hover{
+    background-color: #e50914;
+    opacity: 0.8;
+}
+#in{
+    text-decoration: none;
+}
+#Netflix{
+    flex-basis: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#option{
+    flex-basis: 67%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 20px;
+    padding-right: 175px;
+}
+select{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    height: 32px;
+    width: 126px;
+    font-size: 17px;
+    padding-left: 25px;
+    border-radius: 5px;
+}
+img{
+    height: 80px;
+    width: 200px;
+}
+.border{
+    background-color: black;
+    height: 582px;
+    border-top: 8px solid #232323;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 620px;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+    padding-bottom: 16px;
+}
+p{
+    color: white;
+}
+#watch{
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+#ready{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+#input{
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+input{
+    color: white;
+    font-size: 15px;
+    font-weight:680;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 55px;
+    width: 360px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+    text-align: left;
+    padding-left: 15px;
+}
+#arrow{
+    font-size: 20px;
+    position: relative;
+    right: 40px;
+    bottom: 0.5px;
+} 
+#started{
+    background-color: #e50914;
+    color: white;
+    height: 55px;
+    width: 207px;
+    font-size: 24px;
+    font-weight: 550;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    padding-right: 45px;
+}
+#started:hover{
+    background-color: #e50914;
+    opacity: 0.8;
+}
+#hand{
+    font-size: 24px;
+    text-decoration: none;
+}
+#two{
+    box-shadow: 0px -70px 300px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#enjoy{
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#tv{
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    width: 578px;
+    height: 438px;
+    position: relative;
+}
+#smart{
+    font-size: 24px;
+    font-weight: 600px;
+    padding-left: 180px;
+    padding-bottom: 38px;
+}
+video{
+    height: 270px;
+    position: absolute;
+    padding-left: 78px;
+    padding-bottom: 20px;
+}
+#three{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#mobile{
+    height: 420px;
+    width: 580px;
+}
+#download{
+    font-size: 48px;
+}
+#save{
+    font-size: 28px;
+}
+#img{
+    flex-basis: 50%;
+    padding-left: 170px;
+    padding-top: 80px;
+}
+#content1{
+    flex-basis: 50%;
+    padding-right: 150px;
+}
+#box{
+    position: absolute;
+    border: 1px solid whitesmoke;
+    background-color:black;
+    height: 100px;
+    width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 130px;
+    left: 130px;
+}
+#blue{
+    color: #0071eb;
+}
+#strangerthings{
+    width: 60px;
+}
+#downloadicon{
+    width: 50px;
+    height: 50px;
+}
+#seven{
+    background-color: black;
+    height: 725px;
+}
+#four{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#stream{
+    flex-basis: 39%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    bottom: 15px;
+}
+#every{
+    position: relative;
+    left: 20px;
+}
+#unlimited{
+    font-size: 25px;
+    position: relative;
+    left: 100px;
+}
+#desktop{
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#desk{
+    height: 420px;
+    width: 575px;
+    position: absolute;
+}
+#desktopvideo{
+    height: 440px;
+    width: 435px;
+    position: relative;
+    bottom: 48px;
+    right: 45px;
+}
+#five{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#children{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 60%;
+}
+#child{
+    height: 445px;
+    width: 575px;
+}
+#create{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-basis: 40%;
+    position: relative;
+    right: 180px;
+    bottom: 15px;
+}
+#send{
+    font-size: 25px;
+    position: relative;
+    left: 38px;
+}
+#six{
+    padding-top: 290px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#asked{
+    flex-basis: 10%
+}
+.lastone{
+    background-color: #2d2d2d;
+    height: 90px;
+    width: 1170px;
+    border: 4px solid black;
+}
+.lastone:hover{
+    background-color: #414141;
+    transform: scaleY(200px);
+}
+.fit{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+.box{
+    /* background-color: #2d2d2d;
+    height: 90px;
+    width: 1170px;
+    border: 4px solid black; */
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 25px;
+    flex-basis: 95%;
+}
+#asked{
+    padding-left: 253px;
+}
+i{
+    color: white;
+    font-size: 35px;
+    flex-basis: 5%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+} 
+#to{
+    font-size: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+#top{
+    height: 320px;
+    border-bottom: 8px solid #232323;
+}
+#last{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+}
+#question{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    /* padding-top: 60px;
+    padding-left: 170px;
+    gap: 15px; */
+    flex-basis: 18%;
+    gap: 10px;
+}
+#help{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    flex-basis: 20%;
+    gap: 10px;
+    padding-bottom: 60px;
+}
+#corporate{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    flex-basis: 20%;
+    gap: 10px;
+    padding-bottom: 60px;
+}
+#terms{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    flex-basis: 20%;
+    gap: 10px;
+    padding-bottom: 88px;
+}
+#hindi{
+    padding-bottom: 15px;
+}
+#india{
+    padding-top: 15px;
+}
+a{
+    color: #f9fffa;
+    font-size: 15px;
+}
+#faq{
+    padding-top: 10px;
+}
+
